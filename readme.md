@@ -10,8 +10,6 @@ For training this model, we utilized the pre-trained weights from the nnU-Net mo
 
 The model leverages a modified 3D U-Net architecture with an asymmetric encoder (doubled filters up to 512) for increased capacity, group normalization for better training stability with small batch sizes, and axial attention in the decoder to enhance feature integration across dimensions. A custom scalar head is attached to the backbone's output features to regress the normalized log-tumor volume.
 
-[Insert model architecture diagram or description here]
-
 ## Results
 
 The following table summarizes the performance metrics across train, validation, and test sets. Metrics include Mean Absolute Error (MAE) in cm³, Mean Absolute Percentage Error (MAPE), R-squared (R²) for explained variance, and Concordance Correlation Coefficient (CCC) for agreement between predictions and ground truth. These were evaluated after training with Huber loss and ensemble folding.
@@ -21,7 +19,10 @@ The following table summarizes the performance metrics across train, validation,
 | Test  | [26.37]       | [68.14]      | [0.6340]   | [0.7065]   |
 
 ## Team Members
-Zahra Mirzaei (zahraa.mirzaee.1999@gmail.com) , MahtaFetrat (http://77fetrat@gmail.com) , Negin Rahimi (http://neginrahimiyzd@gmail.com) , Maryam Borzo (http://m.borzoo1289@gmail.com)
+Zahra Mirzaei (zahraa.mirzaee.1999@gmail.com)
+MahtaFetrat (http://77fetrat@gmail.com)
+Negin Rahimi (http://neginrahimiyzd@gmail.com)
+Maryam Borzo (http://m.borzoo1289@gmail.com)
 
 ## References
 - Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211. [Link](https://www.nature.com/articles/s41592-020-01008-z)
