@@ -1,0 +1,656 @@
+
+
+Please cite the following paper when using nnUNet:
+
+Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nat Methods (2020). https://doi.org/10.1038/s41592-020-01008-z
+
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+Subsampled to 337 cases (fraction: 1.0)
+nnUNet_raw_data_base is not defined and nnU-Net can only be used on data for which preprocessed files are already present on your system. nnU-Net cannot be used for experiment planning and preprocessing like this. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up properly.
+nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+RESULTS_FOLDER is not defined and nnU-Net cannot be used for training or inference. If this is not intended behavior, please read documentation/setting_up_paths.md for information on how to set this up.
+using the following model files:  ['./Task500_BraTS2021/nnUNetTrainerV2BraTSRegions_DA4_BN_BD_largeUnet_Groupnorm__nnUNetPlansv2.1/fold_2/model_final_checkpoint.model']
+Load Model Successfully!
+2026-02-24 17:27:11.016590: self.was_initialized is True, not running self.initialize again
+using the following model files:  ['./Task500_BraTS2021/nnUNetTrainerV2BraTSRegions_DA4_BN_BD_largeUnet_Groupnorm__nnUNetPlansv2.1/fold_2/model_final_checkpoint.model']
+{'patch_size': (np.int64(128), np.int64(128), np.int64(128)), 'num_input_channels': 4, 'n_backbone_channels': 3}
+Train y_log mean: 4.326637159106065, std: 0.7110627409257119
+MAE: 41.7051 cm³
+MAPE: 83.89%
+R²: 0.0198
+CCC: 0.0286
+epoch=001 train_loss=0.418100 val_loss=0.425934
+→ Best model saved at epoch 1 (Val MAE: 41.7051 cm³)
+MAE: 41.4987 cm³
+MAPE: 83.03%
+R²: 0.0294
+CCC: 0.0396
+epoch=002 train_loss=0.423379 val_loss=0.422135
+→ Best model saved at epoch 2 (Val MAE: 41.4987 cm³)
+MAE: 41.2044 cm³
+MAPE: 82.83%
+R²: 0.0439
+CCC: 0.0527
+epoch=003 train_loss=0.415252 val_loss=0.418603
+→ Best model saved at epoch 3 (Val MAE: 41.2044 cm³)
+MAE: 40.9624 cm³
+MAPE: 81.88%
+R²: 0.0551
+CCC: 0.0654
+epoch=004 train_loss=0.407571 val_loss=0.414222
+→ Best model saved at epoch 4 (Val MAE: 40.9624 cm³)
+MAE: 40.7389 cm³
+MAPE: 80.73%
+R²: 0.0649
+CCC: 0.0777
+epoch=005 train_loss=0.415002 val_loss=0.409607
+→ Best model saved at epoch 5 (Val MAE: 40.7389 cm³)
+MAE: 40.4161 cm³
+MAPE: 80.37%
+R²: 0.0809
+CCC: 0.0928
+epoch=006 train_loss=0.401579 val_loss=0.405433
+→ Best model saved at epoch 6 (Val MAE: 40.4161 cm³)
+MAE: 40.0929 cm³
+MAPE: 80.02%
+R²: 0.0969
+CCC: 0.1081
+epoch=007 train_loss=0.396213 val_loss=0.401333
+→ Best model saved at epoch 7 (Val MAE: 40.0929 cm³)
+MAE: 39.7689 cm³
+MAPE: 79.36%
+R²: 0.1125
+CCC: 0.1242
+epoch=008 train_loss=0.393671 val_loss=0.396605
+→ Best model saved at epoch 8 (Val MAE: 39.7689 cm³)
+MAE: 39.4317 cm³
+MAPE: 78.59%
+R²: 0.1283
+CCC: 0.1409
+epoch=009 train_loss=0.386127 val_loss=0.391536
+→ Best model saved at epoch 9 (Val MAE: 39.4317 cm³)
+MAE: 39.1217 cm³
+MAPE: 77.23%
+R²: 0.1414
+CCC: 0.1570
+epoch=010 train_loss=0.384909 val_loss=0.385443
+→ Best model saved at epoch 10 (Val MAE: 39.1217 cm³)
+MAE: 38.7390 cm³
+MAPE: 76.16%
+R²: 0.1581
+CCC: 0.1756
+epoch=011 train_loss=0.374936 val_loss=0.379309
+→ Best model saved at epoch 11 (Val MAE: 38.7390 cm³)
+MAE: 38.2854 cm³
+MAPE: 75.74%
+R²: 0.1792
+CCC: 0.1961
+epoch=012 train_loss=0.388610 val_loss=0.374169
+→ Best model saved at epoch 12 (Val MAE: 38.2854 cm³)
+MAE: 37.9250 cm³
+MAPE: 74.65%
+R²: 0.1947
+CCC: 0.2137
+epoch=013 train_loss=0.370575 val_loss=0.368165
+→ Best model saved at epoch 13 (Val MAE: 37.9250 cm³)
+MAE: 37.5935 cm³
+MAPE: 73.63%
+R²: 0.2089
+CCC: 0.2298
+epoch=014 train_loss=0.359092 val_loss=0.362578
+→ Best model saved at epoch 14 (Val MAE: 37.5935 cm³)
+MAE: 37.2362 cm³
+MAPE: 72.82%
+R²: 0.2244
+CCC: 0.2465
+epoch=015 train_loss=0.352165 val_loss=0.357361
+→ Best model saved at epoch 15 (Val MAE: 37.2362 cm³)
+MAE: 36.8723 cm³
+MAPE: 72.10%
+R²: 0.2401
+CCC: 0.2632
+epoch=016 train_loss=0.354074 val_loss=0.352362
+→ Best model saved at epoch 16 (Val MAE: 36.8723 cm³)
+MAE: 36.4864 cm³
+MAPE: 71.38%
+R²: 0.2568
+CCC: 0.2808
+epoch=017 train_loss=0.342254 val_loss=0.347261
+→ Best model saved at epoch 17 (Val MAE: 36.4864 cm³)
+MAE: 36.1540 cm³
+MAPE: 70.54%
+R²: 0.2705
+CCC: 0.2962
+epoch=018 train_loss=0.351973 val_loss=0.342197
+→ Best model saved at epoch 18 (Val MAE: 36.1540 cm³)
+MAE: 35.8428 cm³
+MAPE: 69.44%
+R²: 0.2828
+CCC: 0.3109
+epoch=019 train_loss=0.332508 val_loss=0.336483
+→ Best model saved at epoch 19 (Val MAE: 35.8428 cm³)
+MAE: 35.5631 cm³
+MAPE: 68.36%
+R²: 0.2936
+CCC: 0.3242
+epoch=020 train_loss=0.327359 val_loss=0.331021
+→ Best model saved at epoch 20 (Val MAE: 35.5631 cm³)
+MAE: 35.2078 cm³
+MAPE: 67.53%
+R²: 0.3081
+CCC: 0.3403
+epoch=021 train_loss=0.323439 val_loss=0.325759
+→ Best model saved at epoch 21 (Val MAE: 35.2078 cm³)
+MAE: 34.8906 cm³
+MAPE: 66.56%
+R²: 0.3205
+CCC: 0.3548
+epoch=022 train_loss=0.317717 val_loss=0.320333
+→ Best model saved at epoch 22 (Val MAE: 34.8906 cm³)
+MAE: 34.5532 cm³
+MAPE: 65.84%
+R²: 0.3342
+CCC: 0.3698
+epoch=023 train_loss=0.316596 val_loss=0.315589
+→ Best model saved at epoch 23 (Val MAE: 34.5532 cm³)
+MAE: 34.0800 cm³
+MAPE: 65.39%
+R²: 0.3544
+CCC: 0.3900
+epoch=024 train_loss=0.317959 val_loss=0.310925
+→ Best model saved at epoch 24 (Val MAE: 34.0800 cm³)
+MAE: 33.8371 cm³
+MAPE: 64.25%
+R²: 0.3626
+CCC: 0.4011
+epoch=025 train_loss=0.306768 val_loss=0.305345
+→ Best model saved at epoch 25 (Val MAE: 33.8371 cm³)
+MAE: 33.5305 cm³
+MAPE: 63.34%
+R²: 0.3740
+CCC: 0.4144
+epoch=026 train_loss=0.302580 val_loss=0.300150
+→ Best model saved at epoch 26 (Val MAE: 33.5305 cm³)
+MAE: 33.1550 cm³
+MAPE: 62.67%
+R²: 0.3889
+CCC: 0.4302
+epoch=027 train_loss=0.293491 val_loss=0.295402
+→ Best model saved at epoch 27 (Val MAE: 33.1550 cm³)
+MAE: 32.8575 cm³
+MAPE: 61.80%
+R²: 0.3997
+CCC: 0.4428
+epoch=028 train_loss=0.291151 val_loss=0.290368
+→ Best model saved at epoch 28 (Val MAE: 32.8575 cm³)
+MAE: 32.4383 cm³
+MAPE: 61.25%
+R²: 0.4165
+CCC: 0.4601
+epoch=029 train_loss=0.284466 val_loss=0.285887
+→ Best model saved at epoch 29 (Val MAE: 32.4383 cm³)
+MAE: 32.1218 cm³
+MAPE: 60.39%
+R²: 0.4278
+CCC: 0.4732
+epoch=030 train_loss=0.285882 val_loss=0.280823
+→ Best model saved at epoch 30 (Val MAE: 32.1218 cm³)
+MAE: 31.9416 cm³
+MAPE: 59.22%
+R²: 0.4323
+CCC: 0.4806
+epoch=031 train_loss=0.279389 val_loss=0.275276
+→ Best model saved at epoch 31 (Val MAE: 31.9416 cm³)
+MAE: 31.5425 cm³
+MAPE: 58.68%
+R²: 0.4479
+CCC: 0.4966
+epoch=032 train_loss=0.279483 val_loss=0.270950
+→ Best model saved at epoch 32 (Val MAE: 31.5425 cm³)
+MAE: 31.3429 cm³
+MAPE: 57.47%
+R²: 0.4526
+CCC: 0.5044
+epoch=033 train_loss=0.265570 val_loss=0.265039
+→ Best model saved at epoch 33 (Val MAE: 31.3429 cm³)
+MAE: 30.9621 cm³
+MAPE: 56.93%
+R²: 0.4672
+CCC: 0.5193
+epoch=034 train_loss=0.265605 val_loss=0.260832
+→ Best model saved at epoch 34 (Val MAE: 30.9621 cm³)
+MAE: 30.6463 cm³
+MAPE: 56.06%
+R²: 0.4778
+CCC: 0.5314
+epoch=035 train_loss=0.260140 val_loss=0.255687
+→ Best model saved at epoch 35 (Val MAE: 30.6463 cm³)
+MAE: 30.1869 cm³
+MAPE: 55.65%
+R²: 0.4957
+CCC: 0.5490
+epoch=036 train_loss=0.260256 val_loss=0.251694
+→ Best model saved at epoch 36 (Val MAE: 30.1869 cm³)
+MAE: 30.0066 cm³
+MAPE: 54.54%
+R²: 0.5000
+CCC: 0.5560
+epoch=037 train_loss=0.250000 val_loss=0.246051
+→ Best model saved at epoch 37 (Val MAE: 30.0066 cm³)
+MAE: 29.6220 cm³
+MAPE: 53.85%
+R²: 0.5135
+CCC: 0.5701
+epoch=038 train_loss=0.245566 val_loss=0.241321
+→ Best model saved at epoch 38 (Val MAE: 29.6220 cm³)
+MAE: 29.1297 cm³
+MAPE: 53.43%
+R²: 0.5317
+CCC: 0.5879
+epoch=039 train_loss=0.238441 val_loss=0.237462
+→ Best model saved at epoch 39 (Val MAE: 29.1297 cm³)
+MAE: 28.9164 cm³
+MAPE: 52.43%
+R²: 0.5374
+CCC: 0.5955
+epoch=040 train_loss=0.235532 val_loss=0.232044
+→ Best model saved at epoch 40 (Val MAE: 28.9164 cm³)
+MAE: 28.6435 cm³
+MAPE: 51.58%
+R²: 0.5460
+CCC: 0.6055
+epoch=041 train_loss=0.229233 val_loss=0.226997
+→ Best model saved at epoch 41 (Val MAE: 28.6435 cm³)
+MAE: 28.3777 cm³
+MAPE: 50.75%
+R²: 0.5543
+CCC: 0.6150
+epoch=042 train_loss=0.225103 val_loss=0.222066
+→ Best model saved at epoch 42 (Val MAE: 28.3777 cm³)
+MAE: 28.0294 cm³
+MAPE: 50.07%
+R²: 0.5656
+CCC: 0.6269
+epoch=043 train_loss=0.220771 val_loss=0.217596
+→ Best model saved at epoch 43 (Val MAE: 28.0294 cm³)
+MAE: 27.6210 cm³
+MAPE: 49.43%
+R²: 0.5791
+CCC: 0.6405
+epoch=044 train_loss=0.219390 val_loss=0.213216
+→ Best model saved at epoch 44 (Val MAE: 27.6210 cm³)
+MAE: 27.1221 cm³
+MAPE: 48.87%
+R²: 0.5955
+CCC: 0.6565
+epoch=045 train_loss=0.212539 val_loss=0.209072
+→ Best model saved at epoch 45 (Val MAE: 27.1221 cm³)
+MAE: 26.9678 cm³
+MAPE: 47.92%
+R²: 0.5992
+CCC: 0.6619
+epoch=046 train_loss=0.218269 val_loss=0.203769
+→ Best model saved at epoch 46 (Val MAE: 26.9678 cm³)
+MAE: 26.6512 cm³
+MAPE: 47.13%
+R²: 0.6086
+CCC: 0.6721
+epoch=047 train_loss=0.206040 val_loss=0.198904
+→ Best model saved at epoch 47 (Val MAE: 26.6512 cm³)
+MAE: 26.4044 cm³
+MAPE: 46.28%
+R²: 0.6153
+CCC: 0.6799
+epoch=048 train_loss=0.198586 val_loss=0.193950
+→ Best model saved at epoch 48 (Val MAE: 26.4044 cm³)
+MAE: 26.1479 cm³
+MAPE: 45.48%
+R²: 0.6223
+CCC: 0.6878
+epoch=049 train_loss=0.197424 val_loss=0.189229
+→ Best model saved at epoch 49 (Val MAE: 26.1479 cm³)
+MAE: 25.5814 cm³
+MAPE: 45.00%
+R²: 0.6405
+CCC: 0.7047
+epoch=050 train_loss=0.192358 val_loss=0.185501
+→ Best model saved at epoch 50 (Val MAE: 25.5814 cm³)
+MAE: 25.4449 cm³
+MAPE: 44.04%
+R²: 0.6428
+CCC: 0.7087
+epoch=051 train_loss=0.194703 val_loss=0.180244
+→ Best model saved at epoch 51 (Val MAE: 25.4449 cm³)
+MAE: 25.0916 cm³
+MAPE: 43.27%
+R²: 0.6527
+CCC: 0.7188
+epoch=052 train_loss=0.181837 val_loss=0.175504
+→ Best model saved at epoch 52 (Val MAE: 25.0916 cm³)
+MAE: 24.7908 cm³
+MAPE: 42.56%
+R²: 0.6609
+CCC: 0.7273
+epoch=053 train_loss=0.178512 val_loss=0.171236
+→ Best model saved at epoch 53 (Val MAE: 24.7908 cm³)
+MAE: 24.2989 cm³
+MAPE: 41.95%
+R²: 0.6754
+CCC: 0.7409
+epoch=054 train_loss=0.175169 val_loss=0.167123
+→ Best model saved at epoch 54 (Val MAE: 24.2989 cm³)
+MAE: 24.0379 cm³
+MAPE: 41.16%
+R²: 0.6817
+CCC: 0.7477
+epoch=055 train_loss=0.169106 val_loss=0.162577
+→ Best model saved at epoch 55 (Val MAE: 24.0379 cm³)
+MAE: 23.5824 cm³
+MAPE: 40.56%
+R²: 0.6946
+CCC: 0.7597
+epoch=056 train_loss=0.165681 val_loss=0.158664
+→ Best model saved at epoch 56 (Val MAE: 23.5824 cm³)
+MAE: 23.3507 cm³
+MAPE: 39.78%
+R²: 0.7002
+CCC: 0.7659
+epoch=057 train_loss=0.161264 val_loss=0.154103
+→ Best model saved at epoch 57 (Val MAE: 23.3507 cm³)
+MAE: 22.9881 cm³
+MAPE: 39.11%
+R²: 0.7098
+CCC: 0.7751
+epoch=058 train_loss=0.157239 val_loss=0.150012
+→ Best model saved at epoch 58 (Val MAE: 22.9881 cm³)
+MAE: 22.6997 cm³
+MAPE: 38.42%
+R²: 0.7171
+CCC: 0.7823
+epoch=059 train_loss=0.154264 val_loss=0.145921
+→ Best model saved at epoch 59 (Val MAE: 22.6997 cm³)
+MAE: 22.3037 cm³
+MAPE: 37.76%
+R²: 0.7272
+CCC: 0.7918
+epoch=060 train_loss=0.153022 val_loss=0.141963
+→ Best model saved at epoch 60 (Val MAE: 22.3037 cm³)
+MAE: 21.6432 cm³
+MAPE: 37.23%
+R²: 0.7443
+CCC: 0.8066
+epoch=061 train_loss=0.146085 val_loss=0.138691
+→ Best model saved at epoch 61 (Val MAE: 21.6432 cm³)
+MAE: 21.4020 cm³
+MAPE: 36.48%
+R²: 0.7497
+CCC: 0.8121
+epoch=062 train_loss=0.142627 val_loss=0.134361
+→ Best model saved at epoch 62 (Val MAE: 21.4020 cm³)
+MAE: 21.3550 cm³
+MAPE: 35.70%
+R²: 0.7498
+CCC: 0.8135
+epoch=063 train_loss=0.139243 val_loss=0.129969
+→ Best model saved at epoch 63 (Val MAE: 21.3550 cm³)
+MAE: 21.1034 cm³
+MAPE: 35.04%
+R²: 0.7554
+CCC: 0.8189
+epoch=064 train_loss=0.135010 val_loss=0.126171
+→ Best model saved at epoch 64 (Val MAE: 21.1034 cm³)
+MAE: 20.8109 cm³
+MAPE: 34.34%
+R²: 0.7618
+CCC: 0.8251
+epoch=065 train_loss=0.131335 val_loss=0.122256
+→ Best model saved at epoch 65 (Val MAE: 20.8109 cm³)
+MAE: 20.4573 cm³
+MAPE: 33.70%
+R²: 0.7697
+CCC: 0.8323
+epoch=066 train_loss=0.128953 val_loss=0.118631
+→ Best model saved at epoch 66 (Val MAE: 20.4573 cm³)
+MAE: 20.0173 cm³
+MAPE: 33.06%
+R²: 0.7796
+CCC: 0.8410
+epoch=067 train_loss=0.125251 val_loss=0.115034
+→ Best model saved at epoch 67 (Val MAE: 20.0173 cm³)
+MAE: 19.6727 cm³
+MAPE: 32.41%
+R²: 0.7869
+CCC: 0.8475
+epoch=068 train_loss=0.121250 val_loss=0.111509
+→ Best model saved at epoch 68 (Val MAE: 19.6727 cm³)
+MAE: 19.2590 cm³
+MAPE: 31.79%
+R²: 0.7957
+CCC: 0.8551
+epoch=069 train_loss=0.118126 val_loss=0.108134
+→ Best model saved at epoch 69 (Val MAE: 19.2590 cm³)
+MAE: 18.8249 cm³
+MAPE: 31.17%
+R²: 0.8047
+CCC: 0.8627
+epoch=070 train_loss=0.117315 val_loss=0.104844
+→ Best model saved at epoch 70 (Val MAE: 18.8249 cm³)
+MAE: 18.5396 cm³
+MAPE: 30.50%
+R²: 0.8099
+CCC: 0.8675
+epoch=071 train_loss=0.113940 val_loss=0.101359
+→ Best model saved at epoch 71 (Val MAE: 18.5396 cm³)
+MAE: 18.3403 cm³
+MAPE: 29.83%
+R²: 0.8130
+CCC: 0.8706
+epoch=072 train_loss=0.107781 val_loss=0.097914
+→ Best model saved at epoch 72 (Val MAE: 18.3403 cm³)
+MAE: 17.9387 cm³
+MAPE: 29.22%
+R²: 0.8206
+CCC: 0.8771
+epoch=073 train_loss=0.104741 val_loss=0.094821
+→ Best model saved at epoch 73 (Val MAE: 17.9387 cm³)
+MAE: 17.3347 cm³
+MAPE: 28.66%
+R²: 0.8324
+CCC: 0.8864
+epoch=074 train_loss=0.101767 val_loss=0.092112
+→ Best model saved at epoch 74 (Val MAE: 17.3347 cm³)
+MAE: 17.1747 cm³
+MAPE: 28.00%
+R²: 0.8343
+CCC: 0.8885
+epoch=075 train_loss=0.099153 val_loss=0.088926
+→ Best model saved at epoch 75 (Val MAE: 17.1747 cm³)
+MAE: 16.7648 cm³
+MAPE: 27.44%
+R²: 0.8415
+CCC: 0.8943
+epoch=076 train_loss=0.096274 val_loss=0.086225
+→ Best model saved at epoch 76 (Val MAE: 16.7648 cm³)
+MAE: 16.6209 cm³
+MAPE: 26.87%
+R²: 0.8434
+CCC: 0.8964
+epoch=077 train_loss=0.093249 val_loss=0.083363
+→ Best model saved at epoch 77 (Val MAE: 16.6209 cm³)
+MAE: 15.9224 cm³
+MAPE: 26.28%
+R²: 0.8553
+CCC: 0.9055
+epoch=078 train_loss=0.090990 val_loss=0.080914
+→ Best model saved at epoch 78 (Val MAE: 15.9224 cm³)
+MAE: 15.5011 cm³
+MAPE: 25.69%
+R²: 0.8618
+CCC: 0.9106
+epoch=079 train_loss=0.090474 val_loss=0.078318
+→ Best model saved at epoch 79 (Val MAE: 15.5011 cm³)
+MAE: 15.3405 cm³
+MAPE: 25.15%
+R²: 0.8637
+CCC: 0.9125
+epoch=080 train_loss=0.085192 val_loss=0.075752
+→ Best model saved at epoch 80 (Val MAE: 15.3405 cm³)
+MAE: 15.2331 cm³
+MAPE: 24.61%
+R²: 0.8645
+CCC: 0.9136
+epoch=081 train_loss=0.083287 val_loss=0.073244
+→ Best model saved at epoch 81 (Val MAE: 15.2331 cm³)
+MAE: 15.1203 cm³
+MAPE: 24.07%
+R²: 0.8654
+CCC: 0.9147
+epoch=082 train_loss=0.081156 val_loss=0.070883
+→ Best model saved at epoch 82 (Val MAE: 15.1203 cm³)
+MAE: 14.3541 cm³
+MAPE: 23.51%
+R²: 0.8767
+CCC: 0.9230
+epoch=083 train_loss=0.078032 val_loss=0.068882
+→ Best model saved at epoch 83 (Val MAE: 14.3541 cm³)
+MAE: 14.2510 cm³
+MAPE: 23.01%
+R²: 0.8772
+CCC: 0.9238
+epoch=084 train_loss=0.075946 val_loss=0.066698
+→ Best model saved at epoch 84 (Val MAE: 14.2510 cm³)
+MAE: 14.0247 cm³
+MAPE: 22.48%
+R²: 0.8795
+CCC: 0.9258
+epoch=085 train_loss=0.073869 val_loss=0.064600
+→ Best model saved at epoch 85 (Val MAE: 14.0247 cm³)
+MAE: 13.3247 cm³
+MAPE: 21.92%
+R²: 0.8884
+CCC: 0.9322
+epoch=086 train_loss=0.071909 val_loss=0.062766
+→ Best model saved at epoch 86 (Val MAE: 13.3247 cm³)
+MAE: 12.7690 cm³
+MAPE: 21.39%
+R²: 0.8946
+CCC: 0.9367
+epoch=087 train_loss=0.069800 val_loss=0.061029
+→ Best model saved at epoch 87 (Val MAE: 12.7690 cm³)
+MAE: 12.6489 cm³
+MAPE: 20.92%
+R²: 0.8950
+CCC: 0.9374
+epoch=088 train_loss=0.068173 val_loss=0.059202
+→ Best model saved at epoch 88 (Val MAE: 12.6489 cm³)
+MAE: 12.3371 cm³
+MAPE: 20.45%
+R²: 0.8986
+CCC: 0.9402
+epoch=089 train_loss=0.066120 val_loss=0.057510
+→ Best model saved at epoch 89 (Val MAE: 12.3371 cm³)
+MAE: 12.3687 cm³
+MAPE: 20.04%
+R²: 0.8973
+CCC: 0.9397
+epoch=090 train_loss=0.064687 val_loss=0.055931
+MAE: 12.0957 cm³
+MAPE: 19.61%
+R²: 0.9004
+CCC: 0.9421
+epoch=091 train_loss=0.062776 val_loss=0.054400
+→ Best model saved at epoch 91 (Val MAE: 12.0957 cm³)
+MAE: 11.8670 cm³
+MAPE: 19.18%
+R²: 0.9027
+CCC: 0.9439
+epoch=092 train_loss=0.062165 val_loss=0.052942
+→ Best model saved at epoch 92 (Val MAE: 11.8670 cm³)
+MAE: 11.6913 cm³
+MAPE: 18.79%
+R²: 0.9041
+CCC: 0.9451
+epoch=093 train_loss=0.059766 val_loss=0.051643
+→ Best model saved at epoch 93 (Val MAE: 11.6913 cm³)
+MAE: 11.5879 cm³
+MAPE: 18.43%
+R²: 0.9046
+CCC: 0.9458
+epoch=094 train_loss=0.058000 val_loss=0.050400
+→ Best model saved at epoch 94 (Val MAE: 11.5879 cm³)
+MAE: 11.2553 cm³
+MAPE: 18.10%
+R²: 0.9095
+CCC: 0.9493
+epoch=095 train_loss=0.056759 val_loss=0.049142
+→ Best model saved at epoch 95 (Val MAE: 11.2553 cm³)
+MAE: 11.0300 cm³
+MAPE: 17.80%
+R²: 0.9124
+CCC: 0.9515
+epoch=096 train_loss=0.055507 val_loss=0.048018
+→ Best model saved at epoch 96 (Val MAE: 11.0300 cm³)
+MAE: 11.0107 cm³
+MAPE: 17.49%
+R²: 0.9119
+CCC: 0.9515
+epoch=097 train_loss=0.054136 val_loss=0.046982
+→ Best model saved at epoch 97 (Val MAE: 11.0107 cm³)
+MAE: 10.9592 cm³
+MAPE: 17.18%
+R²: 0.9118
+CCC: 0.9518
+epoch=098 train_loss=0.055005 val_loss=0.045987
+→ Best model saved at epoch 98 (Val MAE: 10.9592 cm³)
+MAE: 10.9192 cm³
+MAPE: 16.86%
+R²: 0.9115
+CCC: 0.9519
+epoch=099 train_loss=0.051912 val_loss=0.045026
+→ Best model saved at epoch 99 (Val MAE: 10.9192 cm³)
+MAE: 10.7442 cm³
+MAPE: 16.56%
+R²: 0.9129
+CCC: 0.9531
+epoch=100 train_loss=0.050862 val_loss=0.044076
+→ Best model saved at epoch 100 (Val MAE: 10.7442 cm³)
+True volume: 59.92 cm³, Predicted: 43.98 cm³
+True volume: 40.36 cm³, Predicted: 43.38 cm³
+True volume: 145.12 cm³, Predicted: 124.56 cm³
+True volume: 118.00 cm³, Predicted: 92.65 cm³
+True volume: 104.01 cm³, Predicted: 113.14 cm³
+True volume: 43.88 cm³, Predicted: 46.39 cm³
+True volume: 231.39 cm³, Predicted: 222.66 cm³
+True volume: 75.95 cm³, Predicted: 61.40 cm³
+True volume: 167.00 cm³, Predicted: 162.85 cm³
+True volume: 105.47 cm³, Predicted: 99.35 cm³
+True volume: 70.18 cm³, Predicted: 66.34 cm³
+True volume: 35.37 cm³, Predicted: 40.40 cm³
+True volume: 9.43 cm³, Predicted: 19.61 cm³
+True volume: 44.17 cm³, Predicted: 44.45 cm³
+True volume: 74.47 cm³, Predicted: 69.42 cm³
+True volume: 12.95 cm³, Predicted: 24.56 cm³
+True volume: 150.08 cm³, Predicted: 129.97 cm³
+True volume: 45.95 cm³, Predicted: 41.37 cm³
+True volume: 97.21 cm³, Predicted: 87.43 cm³
+True volume: 97.64 cm³, Predicted: 90.83 cm³
+True volume: 126.31 cm³, Predicted: 98.01 cm³
+True volume: 71.63 cm³, Predicted: 63.41 cm³
+True volume: 163.81 cm³, Predicted: 156.45 cm³
+True volume: 154.12 cm³, Predicted: 146.87 cm³
+True volume: 139.51 cm³, Predicted: 133.85 cm³
+True volume: 59.33 cm³, Predicted: 45.62 cm³
+True volume: 129.84 cm³, Predicted: 139.38 cm³
+True volume: 77.40 cm³, Predicted: 74.69 cm³
+True volume: 39.61 cm³, Predicted: 43.62 cm³
+True volume: 120.21 cm³, Predicted: 117.41 cm³
+True volume: 113.63 cm³, Predicted: 107.07 cm³
+True volume: 225.54 cm³, Predicted: 221.41 cm³
+True volume: 74.30 cm³, Predicted: 66.76 cm³
+True volume: 16.75 cm³, Predicted: 23.68 cm³
+MAE: 8.8827 cm³
+MAPE: 15.68%
+R²: 0.9601
+CCC: 0.9789
