@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+pycache/
+*.egg-info/
+.pytest_cache/
+*.coveragerc
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Data and Models
+BraTS2021_Training_Data2/
+nnUNet_raw_data_base/
+output/*
+!output/.gitkeep
+models/*.pth
+*.nii.gz
+*.tar
+*.csv  # If generated, but keep brats2021_whole_tumor_volumes.csv if versioned
+# Notebooks
+notebooks/*.ipynb_checkpoints
+Misc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~

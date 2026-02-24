@@ -1,0 +1,32 @@
+# config.yaml
+
+# Paths
+brats_root: "./BraTS2021_Training_Data2/BraTS2021_Training_Data2"
+csv_path: "./brats2021_whole_tumor_volumes.csv"
+nnunet_fold_folder: "./Task500_BraTS2021/nnUNetTrainerV2BraTSRegions_DA4_BN_BD_largeUnet_Groupnorm__nnUNetPlansv2.1"  # Update with your path
+out_ckpt: "scalar_head.pt"
+label_column: "wt_volume_cm3"
+brats_dir: "./BraTS2021_Training_Data2/BraTS2021_Training_Data2"
+nnunet_raw_data_base: "./nnUNet_raw_data_base"
+task_root: "./nnUNet_raw_data_base/nnUNet_raw_data/Task501_BraTS2021"
+repo_path: "./Brats21_KAIST_MRI_Lab"
+
+# Hyperparameters
+epochs: 100
+batch_size: 4
+lr: 0.0001
+weight_decay: 0.00001
+val_fraction: 0.1
+seed: 123
+mask_with_seg: true
+train_backbone: false
+freeze_seg_outputs: true
+device: "cuda:0"  # or "cpu"
+subsample_fraction: 1.0
+
+# Data Preparation
+modality_map:
+  flair: "0000"
+  t1: "0001"
+  t1ce: "0002"
+  t2: "0003"

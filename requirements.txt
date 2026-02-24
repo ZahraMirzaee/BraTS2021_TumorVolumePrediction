@@ -1,0 +1,16 @@
+# requirements.txt
+nibabel
+monai
+kagglehub
+tqdm
+numpy
+matplotlib
+pandas
+torch
+dataclasses
+tarfile
+random
+seaborn
+scikit-learn
+# Note: nnU-Net is installed via git clone and pip install from the repository as per the code modifications.
+# Run the setup in notebooks/experiment.ipynb or src/train.py for custom nnU-Net installation.
