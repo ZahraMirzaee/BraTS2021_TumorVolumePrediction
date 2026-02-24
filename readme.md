@@ -20,9 +20,9 @@ The following table summarizes the performance metrics across train, validation,
 
 ## Team Members
 - Zahra Mirzaei [zahraa.mirzaee.1999@gmail.com]
-- MahtaFetrat [http://77fetrat@gmail.com]
-- Negin Rahimi [http://neginrahimiyzd@gmail.com]
-- Maryam Borzo [http://m.borzoo1289@gmail.com]
+- MahtaFetrat [77fetrat@gmail.com]
+- Negin Rahimi [neginrahimiyzd@gmail.com]
+- Maryam Borzo [m.borzoo1289@gmail.com]
 
 ## References
 
