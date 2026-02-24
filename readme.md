@@ -12,11 +12,11 @@ The model leverages a modified 3D U-Net architecture with an asymmetric encoder 
 
 ## Results
 
-The following table summarizes the performance metrics across train, validation, and test sets. Metrics include Mean Absolute Error (MAE) in cm³, Mean Absolute Percentage Error (MAPE), R-squared (R²) for explained variance, and Concordance Correlation Coefficient (CCC) for agreement between predictions and ground truth. These were evaluated after training with Huber loss and ensemble folding.
+The following table summarizes the performance metrics across the test set. Metrics include Mean Absolute Error (MAE) in cm³, Mean Absolute Percentage Error (MAPE), R-squared (R²) for explained variance, and Concordance Correlation Coefficient (CCC) for agreement between predictions and ground truth. These were evaluated after training with Huber loss .
 
 | Set   | MAE (cm³) | MAPE (%) | R²    | CCC   |
 |-------|-----------|----------|-------|-------|
-| Test  | [26.37]       | [68.14]      | [0.6340]   | [0.7065]   |
+| Test  | [8.88]       | [15.68]      | [0.9601]   | [0.9789]   |
 
 ## Team Members
 - Zahra Mirzaei [zahraa.mirzaee.1999@gmail.com]
