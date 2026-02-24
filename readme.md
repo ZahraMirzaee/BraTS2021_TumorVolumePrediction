@@ -18,12 +18,10 @@ The following table summarizes the performance metrics across train, validation,
 
 | Set   | MAE (cm³) | MAPE (%) | R²    | CCC   |
 |-------|-----------|----------|-------|-------|
-| Train | [ ]       | [ ]      | [ ]   | [ ]   |
-| Val   | [ ]       | [ ]      | [ ]   | [ ]   |
-| Test  | [ ]       | [ ]      | [ ]   | [ ]   |
+| Test  | [26.37]       | [68.14]      | [0.6340]   | [0.7065]   |
 
 ## Team Members
-[Insert team member names here]
+Zahra Mirzaei (zahraa.mirzaee.1999@gmail.com) , MahtaFetrat (http://77fetrat@gmail.com) , Negin Rahimi (http://neginrahimiyzd@gmail.com) , Maryam Borzo (http://m.borzoo1289@gmail.com)
 
 ## References
 - Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211. [Link](https://www.nature.com/articles/s41592-020-01008-z)
