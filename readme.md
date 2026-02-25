@@ -1,6 +1,8 @@
 # Brain Tumor Volume Prediction
 
 This project extends the nnU-Net framework from the BraTS 2021 competition winner to predict the whole tumor volume (in cm³) from multi-parametric MRI scans. We use a pre-trained nnU-Net segmentation model as a backbone and add a scalar regression head to estimate tumor volumes directly. The approach builds on the paper "Extending nn-U-Net for brain tumor segmentation" by Luu et al., incorporating modifications like a larger encoder, group normalization, and axial attention in the decoder for improved performance.
+You can download the trained model weights (.pth file) from this Google Drive link:  
+[Download Model Weights](https://drive.google.com/file/d/1TH80Ak-JLEtRBAiZpYH-yUljEpkAVRN5/view?usp=sharing)
 
 ## Training Details
 
