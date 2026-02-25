@@ -11,6 +11,7 @@ For training this model, we utilized the pre-trained weights from the nnU-Net mo
 ## Model Architecture
 
 The model leverages a modified 3D U-Net architecture with an asymmetric encoder (doubled filters up to 512) for increased capacity, group normalization for better training stability with small batch sizes, and axial attention in the decoder to enhance feature integration across dimensions. A custom scalar head is attached to the backbone's output features to regress the normalized log-tumor volume.
+
 <img width="624" height="446" alt="Model_Arch" src="https://github.com/user-attachments/assets/8318da5e-3125-4dc3-9dc9-b344e7ead859" />
 
 
