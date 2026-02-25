@@ -71,7 +71,7 @@ For any questions or collaboration, please contact us.
 
 [19] W.-J. Zhang et al., “Feasibility Study of Detecting and Segmenting Small Brain Tumors in a Small MRI Dataset with Self-Supervised Learning,” Journal of Imaging, vol. 11, no. 2, p. 45, 2025. doi: 10.3390/jimaging11020045.
 
-[20] A. R. Kumar and H. Kuttiappan, “Detection of brain tumor size using modified deep learning and multilevel thresholding utilizing modified dragonfly optimization algorithm,” \textit{Concurrency and Computation: Practice and Experience}, vol. 34, no. 10, May 2022, Art. no. e7016, doi: 10.1002/cpe.7016.
+[20] A. R. Kumar and H. Kuttiappan, “Detection of brain tumor size using modified deep learning and multilevel thresholding utilizing modified dragonfly optimization algorithm,” Concurrency and Computation: Practice and Experience, vol. 34, no. 10, May 2022, Art. no. e7016, doi: 10.1002/cpe.7016.
 
 ## Quick Inference
 To compute the whole tumor volume for a single patient's MRI data and predict using the model:
