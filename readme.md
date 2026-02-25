@@ -27,6 +27,7 @@ The following table summarizes the performance metrics across the test set. Metr
 - MahtaFetrat [77fetrat@gmail.com]
 - Negin Rahimi [neginrahimiyzd@gmail.com]
 - Maryam Borzo [m.borzoo1289@gmail.com]
+
 For any questions or collaboration, please contact us.
 
 ## References
